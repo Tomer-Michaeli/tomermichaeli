@@ -1,0 +1,179 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Heebo', sans-serif;
+}
+
+.landing-page {
+    background: transparent url('../assets/images/sites-images/Path15.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    top: 0px;
+    left: 0px;
+    width: 1920px;
+    height: 706px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    text-align: center;
+}
+
+h1 {
+    text-align: right;
+    font: normal normal 86px/113px Assistant;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    margin-bottom: 16px;
+    font-weight: bold;
+}
+
+.form-inline {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+p {
+    text-align: center;
+    font: normal normal normal 20px/26px Assistant;
+    letter-spacing: 0px;
+    color: #F9F9F9;
+    opacity: 1;
+    margin-bottom: 32px;
+}
+
+label {
+    font-weight: bold;
+    text-align: right;
+    font: normal normal bold 16px/24px;
+    letter-spacing: 0px;
+    color: #2C2C2C;
+    opacity: 1;
+    max-width: 418px;
+    width: 100%;
+}
+
+input {
+    background-color: white;
+    opacity: 1;
+    border-bottom: 3px solid #0f5380;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    max-width: 418px;
+    width: 100%;
+    min-height: 2rem;
+    margin-bottom: 20px;
+    writing-mode: rl;
+}
+
+button[type='submit'] {
+    top: 848px;
+    left: 386px;
+    width: 166px;
+    height: 50px;
+    background: transparent linear-gradient(74deg, #0F5380 0%, #0F5380 100%) 0% 0% no-repeat padding-box;
+    opacity: 1;
+    transition: all 0.3s ease;
+}
+
+button[type='submit']:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    animation: shakebtn 0.6s;
+}
+
+@keyframes shakebtn {
+    0% {
+        transform: translate(0, 0);
+    }
+
+    25% {
+        transform: translate(-5px, 0);
+    }
+
+    50% {
+        transform: translate(0, -5px);
+    }
+
+    75% {
+        transform: translate(5px, 0);
+    }
+
+    100% {
+        transform: translate(0, 0);
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .landing-page {
+        background: transparent url('../assets/images/sites-images/Path15.png') 0% 0% no-repeat padding-box;
+        opacity: 1;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    h1 {
+        font-size: 48px;
+        line-height: 56px;
+        text-align: center;
+    }
+    
+
+    .form-inline {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    button[type='submit'] {
+        top: auto;
+        left: auto;
+        margin-top: 25px;
+        width: 100%;
+        height: 50px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .landing-page {
+        background: transparent url('../assets/images/sites-images/Path15.png') 0% 0% no-repeat padding-box;
+        opacity: 1;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    h1 {
+        font-size: 48px;
+        line-height: 56px;
+        text-align: center;
+    }
+
+    .form-inline {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    button[type='submit'] {
+        top: auto;
+        left: auto;
+        margin-top: 25px;
+        width: 75%;
+        height: 50px;
+    }
+}

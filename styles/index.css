@@ -1,0 +1,523 @@
+/*======================================================  General Section CSS [Start] =======================================*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Heebo', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+@font-face {
+    font-family: Qdbettercomicsans;
+    src: url(../styles/fonts/Qdbettercomicsans-jEEeG.ttf);
+}
+
+/*======================================================  General Section CSS [END] =======================================*/
+
+/* General Section CSS [END] */
+
+
+
+/* Navbar Section CSS [START] */
+#navbar {
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    color: #fff;
+    box-shadow: 7px -2px 10px black;
+    max-height: 60px;
+}
+
+nav li {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+nav a:hover {
+    color: #b3f3f7;
+}
+
+.navbar-pic {
+    display: flex;
+    align-items: center;
+}
+
+#navbar-pic {
+    max-height: 50px;
+    margin-left: 30px;
+}
+
+#name-profile {
+    color: black;
+    padding-left: 9px;
+    font-family: Qdbettercomicsans;
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* Navbar Section CSS [END] */
+
+/*======================================================  Main Header Section CSS - START =======================================*/
+.header-title {
+    text-align: center;
+    padding: 5%;
+    background: url(../assets/images/bg.jpeg), #b3f3f7;
+    background-blend-mode: multiply;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.tech {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px rgb(221, 221, 221);
+}
+
+.main-container {
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.profile-pic {
+    height: 400px;
+    width: 400px;
+    display: flex;
+    padding: 1%;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+/* ==========================  Biography Section ============================= */
+#bio-title {
+    margin-left: 600px;
+    font-size: 25px;
+}
+
+.bio {
+    width: 700px;
+    margin-top: 20px;
+}
+
+/* ==========================  End of Bio Section ============================= */
+
+
+.resume {
+    background-color: #2F2E2E;
+    color: white;
+    max-width: 100%;
+    max-height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+#resume-info {
+    padding: 4% 17rem;
+}
+
+#pdf-pic {
+    max-height: 100px;
+    max-width: 100px;
+    margin-top: 3rem;
+}
+
+
+/* ==========================  Projects Section ============================= */
+.prjsection-1,
+.prjsection-2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    background-color: #f3f3f3;
+}
+
+.project-card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 20px;
+    max-width: 20.875rem;
+    background-color: white;
+}
+
+.prj-header {
+    font-family: Qdbettercomicsans;
+    font-size: 19px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.prj-img {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.prj-btn {
+    display: flex;
+    flex-direction: row;
+    gap: 3px;
+    justify-content: center;
+    margin-top: 4%;
+}
+
+.btn-primary {
+    font-family: 'Heebo', sans-serif;
+    font-size: 1rem;
+    color: black;
+    width: 155px;
+    height: 30px;
+    margin-bottom: 1.3125rem;
+    background-color: #57e6f0;
+    border-radius: 10px;
+    border-style: none;
+}
+
+.btn-primary:hover {
+    cursor: pointer;
+    color: #2F2E2E;
+    opacity: 0.5;
+}
+
+.btn-primay-a {
+    color: black;
+    text-decoration: none;
+}
+
+/* ======================================================= */
+
+
+/* =====================Form============================== */
+.form-section {
+    background: url(../assets/images/bg.jpeg), #b3f3f7;
+    background-blend-mode: multiply;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    border: none;
+    width: 400px;
+    height: 31px;
+}
+
+textarea {
+    width: 400px;
+    height: 99px;
+}
+
+/* ======================================================= */
+
+/* =====================Section Part====================== */
+section {
+    display: flex;
+    justify-content: center;
+    background-color: #2F2E2E;
+    color: #fff;
+    max-height: 100px;
+
+}
+
+.section-child {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 9.375rem;
+}
+
+.section-child1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+
+}
+
+.section-child1 img {
+    max-width: 41px;
+    max-height: 41px;
+    margin-bottom: 10px;
+}
+
+/* ======================================================= */
+
+/* =====================Footer Part====================== */
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+/* ===========================  Media Query section above ============================ */
+@media (max-width: 768px) {
+    html {
+        overflow-x: hidden;
+    }
+
+    body {
+        overflow-x: hidden;
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    header {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-height: none;
+    }
+
+    header h1 {
+        margin-top: 20px;
+    }
+
+ 
+    nav li {
+        margin: auto;
+        padding:10px;
+       
+        
+    }
+
+    .navbar-pic {
+        position: absolute;
+        left: 0;
+    }
+
+    #name-profile {
+        display: none;
+    }
+
+    .tech {
+        display: flex;
+        flex-direction: column;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    .profile-pic {
+        max-width: 100%;
+        max-height: 100%;
+        height: 100px;
+        width: 100px;
+        
+    }
+
+    #bio-title {
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bio {
+        max-width: 100%;
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .resume {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #resume-info {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    #pdf-pic {
+        margin-top: 20px;
+    }
+
+    .prjsection-1 .prjsection-2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .form-section {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        max-height: 100%;
+        max-width: auto;
+    }
+}
+
+
+/* This part was tested on some dimensions such as:
+iPad Mini 768x1024.
+iPad Air 820x1180.
+*/
+@media (max-width: 820px) {
+    html {
+        overflow-x: hidden;
+    }
+
+    body {
+        overflow-x: hidden;
+        max-width: 100%;
+        max-height: 100%;
+    }
+           .header-title {
+            padding: 70px;
+               
+           }
+
+    header {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-height: none;
+    }
+
+    header h1 {
+        margin-top: 20px;
+    }
+
+    nav li {
+        margin: auto;
+        padding:10px;
+       
+        
+    }
+
+    .navbar-pic {
+        margin-left: 0;
+    }
+
+    #name-profile {
+        display: none;
+    }
+
+    .tech {
+        
+        display: flex;
+        flex-direction: row;
+        margin: auto;
+        padding: 10px;
+    }
+    .techMedia{
+        height: 35px;
+        width: 35px;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    .profile-pic {
+        /* max-width: 100%;
+        max-height: 100%; */
+        height: 400px;
+        width: 20px;
+        
+        
+    }
+
+    #bio-title {
+        margin: auto;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bio {
+        max-width: 100%;
+        font-size: 12px;
+        text-align: center;
+        padding: 15px;
+        font-size: 15px;
+    }
+
+    .resume {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #resume-info {
+        margin-bottom: 20px;
+        text-align: center;
+        
+    }
+
+    #pdf-pic {
+        margin-top: 20px;
+    }
+
+    .prjsection-1 .prjsection-2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .form-section {
+        font-size: 12px;
+        text-align: center;
+    }
+}
+    /* section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        max-height: 100%;
+        max-width: auto;
+    }
+} */
+
+.section-child1{
+
+display: flex;
+flex-direction: column-reverse;
+
+width: 150px;
+}

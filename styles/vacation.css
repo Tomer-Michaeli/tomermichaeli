@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    top: 0px;
+    left: 0px;
+    max-width: 1920px;
+    max-height: 1081px;
+    background: transparent url('../assets/images/sites-images/img-bg.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    font-family: 'Heebo', sans-serif;
+}
+
+@font-face {
+    font-family: HeeboBold;
+    src: url(../styles/fonts/Heebo-Bold.ttf);
+}
+
+main {
+    top: 157px;
+    left: 1089px;
+    width: 569px;
+    height: 643px;
+    background: #EEEEEED1 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.main-content {
+    position: absolute;
+    top: 233px;
+    left: 1165px;
+    width: 418px;
+    height: 471px;
+    opacity: 1;
+}
+
+.child {
+    padding: 11% 58px;
+    display: block;
+}
+
+h1 {
+    top: 233px;
+    left: 1248px;
+    width: 335px;
+    height: 53px;
+    text-align: right;
+    font: normal normal 36px/53px 'HeeboBold';
+    letter-spacing: 0px;
+    color: #071192;
+    opacity: 1;
+}
+
+p {
+    text-align: right;
+    font: normal normal normal 14px HeeboBold;
+    letter-spacing: 0px;
+    color: #2C2C2C;
+}
+
+form {
+    margin: 0px 6.9375rem;
+}
+
+.form-name,
+.form-email {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+input[type="text"],
+input[type="email"] {
+    opacity: 1;
+    border-bottom: 3px solid #071192;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    max-width: 418px;
+    max-height: 50px;
+    margin-bottom: 25px;
+}
+input{
+    width: 250px;
+    padding: 3px;
+}
+label {
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-align: right;
+}
+
+button {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 0;
+    color: #FFFFFF;
+    background: #071192 0% 0% no-repeat padding-box;
+    ;
+    padding: 5px 25px;
+    border-style: none;
+    font-family: HeeboBold;
+    margin: 30px;
+}
+
+
+/* @media only screen  */
+
+
+
+@media screen and (max-width: 767px) {
+
+.main-content {
+    position: absolute;
+    top: 200px;
+    left: 0;
+    width: 418px;
+    height: 471px;
+    opacity: 1;
+}
+}
+

@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    top: 0px;
+    left: 0px;
+    width: 1920px;
+    height: 1080px;
+    font-family: 'Heebo', sans-serif;
+    border: 1px solid #707070;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.image {
+    
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image img {
+    background: transparent url('') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    
+    
+}
+
+.form {
+    top: 268px;
+    left: 220px;
+    width: 418px;
+    height: 496px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    width: 300px;
+    
+}
+
+span.red {
+    color: #f50b33;
+}
+
+p{
+    padding: 15px;
+    
+}
+
+label {
+    
+    font-size: 15px;
+    margin-bottom: 10px;
+    text-align: right;
+    display: block;
+}
+
+input[type="text"],
+input[type="email"] {
+    background-color: #F6F6F6;
+    opacity: 1;
+    border-bottom: 3px solid #f50b33;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    max-width: 418px;
+    max-height: 50px;
+    margin-bottom: 25px;
+}
+.label-width{
+    width: 320px;
+    padding: 8px;
+}
+
+button {
+    text-align: right;
+    /* font: normal normal bold 22px/30px Heebo; */
+    font-family: 'Heebo', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 0.33px;
+    color: #FFFFFF;
+    background-color: #f50b33;
+    border-style: none;
+    margin-top: 0;
+    padding: 10px 40px;
+    opacity: 1;
+}
+
+
+@media only screen and (max-width: 768px) {
+    body {
+        width: 100%;
+        height: auto;
+    }
+
+    .container {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .image {
+        width: 100%;
+        height: 400px;
+        order: 2;
+    }
+
+    .image img {
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    .form {
+        width: 100%;
+        height: auto;
+        order: 1;
+        padding: 20px 40px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        align-items: center;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 32px;
+        margin-bottom: 10px;
+    }
+
+    label {
+        font-size: 18px;
+        margin-bottom: 5px;
+        text-align: center;
+    }
+
+    input[type="text"],
+    input[type="email"] {
+        max-width: 100%;
+        max-height: 40px;
+        margin-bottom: 15px;
+    }
+
+    button {
+        font-size: 18px;
+        padding: 10px 20px;
+    }
+}
